@@ -8,7 +8,8 @@ public class Syntax{  // Class Declaration
 
         Scanner sc = new Scanner(System.in);
         
-        System.out.println("Hello From Java!");    // Executable Code
+        System.out.println("Hello From Java!");
+            // Executable Code
 
         System.out.println("Haggu is King\nHaggu is King\nHaggu is king");
 
@@ -53,9 +54,11 @@ public class Syntax{  // Class Declaration
         
         // Non Primitive Data-Type :
         // String, Array, Class, Object, Interface
+        
+        sc.nextLine(); // used nextint() , etc other methods before so you have to get rid of the leftover newline
 
         System.out.println("Input your name : ");
-        String name = sc.nextLine();
+        String name = sc.next();
         System.out.println(name);
 
         sc.close(); // good practice to close the scanner you know
