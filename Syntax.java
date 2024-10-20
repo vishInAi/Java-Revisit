@@ -35,7 +35,7 @@ public class Syntax{  // Class Declaration
         // data types
         // in java we have to define first had what variable is of what datatype
         // Two types of data Types
-        
+
         // Primitive Data Types :
         // int - 4, double - 8, byte - 1, short - , char - 2, boolean - 1, long - 8, float - 4
 
@@ -50,7 +50,7 @@ public class Syntax{  // Class Declaration
 
         double mul = c*d;
         System.out.println(mul);
-
+        
         // Non Primitive Data-Type :
         // String, Array, Class, Object, Interface
 
