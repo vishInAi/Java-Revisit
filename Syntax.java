@@ -51,23 +51,12 @@ public class Syntax{  // Class Declaration
         double mul = c*d;
         System.out.println(mul);
 
-
-
-
-
-
         // Non Primitive Data-Type :
         // String, Array, Class, Object, Interface
 
-
-
-
-
-
-
-
-
-
+        System.out.println("Input your name : ");
+        String name = sc.nextLine();
+        System.out.println(name);
 
         sc.close(); // good practice to close the scanner you know
 
